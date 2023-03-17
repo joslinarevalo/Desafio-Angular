@@ -1,1 +1,17 @@
 @use '../../app.component.scss';
+@import 'mixin';
+
+.nav{
+  
+    @include flex(row,wrap,space-between,center);
+   
+}
+.ul{
+@include flex(row,wrap,flex-end,center);
+ }
+.li{
+margin: 0 .5em;
+ }
+// .a{
+
+// }

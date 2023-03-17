@@ -1,0 +1,13 @@
+@use '../../app.component.scss';
+@import '_mixin';
+.nav{
+    background-color:blue;
+    @include flex(row,wrap,space-between,center);
+   
+}
+.ul{
+@include flex(row,wrap,flex-end,center);
+ }
+.li{
+margin: 0 .5em;
+ }
