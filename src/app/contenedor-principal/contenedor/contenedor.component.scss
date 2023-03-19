@@ -1,13 +1,36 @@
 @use '../../app.component.scss';
-@import '_mixin';
-.nav{
-    background-color:blue;
-    @include flex(row,wrap,space-between,center);
-   
+.main{
+    background-color: aquamarine;
+    width: 100%;
+    height: calc(110vh - 90px);
+    display: flex;
+    justify-content: center;
 }
-.ul{
-@include flex(row,wrap,flex-end,center);
- }
-.li{
-margin: 0 .5em;
- }
+.section{
+  
+    width: 70%;
+    height: 100px;
+}
+.aside{
+    background-color:rgb(13, 13, 47);
+    width: 25%;
+    height: 595px;
+  
+}
+.asideA{
+    background-color:gold;
+    width: 25%;
+    height: 100px;
+}
+.h1{
+    font-size:xx-large;
+   color: yellow;
+}
+.h2{
+    
+   color: blanchedalmond;
+}
+.span{
+    color: blanchedalmond;
+    font-size: 0.75em;
+}

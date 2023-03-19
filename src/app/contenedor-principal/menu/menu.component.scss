@@ -1,17 +1,22 @@
 @use '../../app.component.scss';
-@import 'mixin';
 
-.nav{
-  
-    @include flex(row,wrap,space-between,center);
-   
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: brown;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
 }
-.ul{
-@include flex(row,wrap,flex-end,center);
- }
-.li{
-margin: 0 .5em;
- }
-// .a{
-
-// }
+.a{
+    font-weight: 600;
+    padding-right: 20px;
+}
+@media(max-width:700px){
+header{
+    flex-direction: column;
+}
+nav{
+    padding: 10px 0px;
+}
+}
