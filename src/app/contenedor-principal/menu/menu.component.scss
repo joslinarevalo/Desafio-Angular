@@ -3,14 +3,17 @@
 header{
     display: flex;
     min-height: 70px;
-    background-color: brown;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 30px;
+   
 }
 .a{
     font-weight: 600;
     padding-right: 20px;
+    font-size:large;
+    color: rgb(59, 59, 58);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 @media(max-width:700px){
 header{
